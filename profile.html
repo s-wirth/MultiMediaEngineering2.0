@@ -3,7 +3,7 @@
 <head>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta charset="utf-8">
-	<title>ArtArchive</title>
+	<title>Quillium</title>
 	<link rel="stylesheet" href="CSS/style.css">
 
 	<!-- Latest compiled and minified CSS -->
@@ -23,11 +23,109 @@
 
 </head>
 <body>
+	<div class="modal fade" id="login" role="dialog">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<form action="" class="form-horizontal">
+					<div class="modal-header">
+						<h4>Log In</h4>
+					</div> <!-- End of Modal Header -->
+					<div class="modal-body">
+						
+						<div class="form-group">
+							
+							<label for="login-name" class="col-lg-2 control-label">Username</label>
+							<div class="col-lg-10">
+								<input type="text" placeholder="Enter Your Username" class="form-control" id="login-name">
+							</div>
+						</div> <!-- End of -->
+
+						<div class="form-group">
+							
+							<label for="login-name" class="col-lg-2 control-label">Password</label>
+							<div class="col-lg-10">
+								<input type="password" placeholder="Enter Your Password" class="form-control" id="login-name">
+							</div>
+						</div> <!-- End of -->
+						<div class="form-group">
+							
+							<a href="profile.html" class="btn btn-default pull-right btn-large" style="margin-right: 20px;">Login</a>
+
+						</div> <!-- End of -->
+
+					</div> <!-- End of Modal Body -->
+					<div class="modal-footer">
+						<a href="#" class="btn btn-default btn-xs">Forgot Password</a>
+						<a href="#" class="btn btn-default btn-xs">Sign Up</a>
+						<a href="#" class="btn btn-default btn-xs" data-dismiss="modal">Close</a>
+					</div> <!-- End of Modal footer -->
+				</form>
+			</div> <!-- End of Modal Content -->
+		</div> <!-- End of Modal Dialog -->
+	</div> <!-- End of Modal Fade LOGIN -->
+
+	<div class="modal fade" id="signup" role="dialog">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<form action="" class="form-horizontal">
+					<div class="modal-header">
+						<h4>Sign Up</h4>
+					</div> <!-- End of Modal Header -->
+					<div class="modal-body">
+						
+						<div class="form-group">
+							
+							<label for="login-name" class="col-lg-2 control-label">Username</label>
+							<div class="col-lg-10">
+								<input type="text" placeholder="Enter Your Username" class="form-control" id="signup-username">
+							</div>
+						</div> <!-- End of -->
+
+						<div class="form-group">
+							
+							<label for="login-name" class="col-lg-2 control-label">Email</label>
+							<div class="col-lg-10">
+								<input type="email" placeholder="Enter Your Email" class="form-control" id="signup-email">
+							</div>
+						</div> <!-- End of -->
+
+						<div class="form-group">
+							
+							<label for="login-name" class="col-lg-2 control-label">Password</label>
+							<div class="col-lg-10">
+								<input type="password" placeholder="Enter Your Password" class="form-control" id="signup-password">
+							</div>
+						</div> <!-- End of -->
+
+						<div class="form-group">
+							
+							<label for="login-name" class="col-lg-2 control-label"></label>
+							<div class="col-lg-10">
+								<input type="password" placeholder="Repeat Your Password" class="form-control" id="signup-password-rp">
+							</div>
+						</div> <!-- End of -->
+
+						<div class="form-group">
+							
+							<a href="#" class="btn btn-default pull-right btn-large" style="margin-right: 20px;">Sign Up</a>
+
+						</div> <!-- End of -->
+
+					</div> <!-- End of Modal Body -->
+					<div class="modal-footer">
+						<a href="#" class="btn btn-default btn-xs">Forgot Password</a>
+						<a href="#" class="btn btn-default btn-xs">Sign Up</a>
+						<a href="#" class="btn btn-default btn-xs" data-dismiss="modal">Close</a>
+					</div> <!-- End of Modal footer -->
+				</form>
+			</div> <!-- End of Modal Content -->
+		</div> <!-- End of Modal Dialog -->
+	</div> <!-- End of Modal Fade SIGNUP -->
 		<nav class="navbar navbar-default navbar-static-top nav-absolute">
 		
 		<div class="container-fluid distance">
 			<div class="navbar-header">
-				<a href="#" class="navbar-brand quillium">Quillium</a> <!-- Site Name -->
+				<a href="index.html" class="navbar-brand quillium">Quillium</a> <!-- Site Name -->
 
 				<button class="navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse">
 					<span class="icon-bar"></span>
@@ -54,12 +152,17 @@
 					</li>
 					<li>
 					    <form action="#">
-					        <button class="btn btn-default navbar-btn forms" role="button"><a href="#login" data-toggle="modal">Log In</a></button>
+					    	<a href="#login" data-toggle="modal">
+					        <button class="btn btn-default navbar-btn forms" role="button">Log In</button>
+					        </a>
 					    </form>
 					</li>
 					<li>
 					    <form action="#">
-					        <button class="btn btn-default navbar-btn forms" role="button">Sign Up</button>
+					    	<a href="#signup" data-toggle="modal">
+					        <button class="btn btn-default navbar-btn forms" role="button">Sign Up
+					        </button>
+					        </a>
 					    </form>
 					</li>
 				</ul>
@@ -69,7 +172,7 @@
 		</div> <!-- End of container -->
 	</nav> <!-- End of navbar -->
 	<div class="content">
-		<div class="background profile">
+		<div class="background">
 			<div class="profile-pic">
 				
 			</div> <!-- End of Profile Pic -->
@@ -132,7 +235,7 @@
 				<div class="skill-label">
 					Learning
 				</div>
-				<div class="skill-icon">
+				<div class="skill-icon skill-5">
 					<span></span>
 					<span></span>
 					<span></span>
@@ -310,29 +413,6 @@
 			</div> <!-- End of Thumbnail Container -->
 
 		</section> <!-- End of Work Section -->
-
-
-
-
-
-
-		<div class="modal fade" id="login" role="dialog">
-			<div class="modal-dialog">
-				<div class="modal-content">
-					<div class="modal-header">
-						<h4>Log In</h4>
-					</div> <!-- End of Modal Header -->
-					<div class="modal-body">
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum exercitationem temporibus, odit modi cumque veritatis labore id, aliquid ducimus. Eligendi ad eveniet ratione accusamus ea debitis eaque quidem officia doloribus.
-					</div> <!-- End of Modal Body -->
-					<div class="modal-footer">
-						<a href="#" class="btn btn-default btn-xs">Forgot Password</a>
-						<a href="#" class="btn btn-default btn-xs">Sign Up</a>
-						<a href="#" class="btn btn-default btn-xs" data-dismiss="modal">Close</a>
-					</div> <!-- End of Modal footer -->
-				</div> <!-- End of Modal Content -->
-			</div> <!-- End of Modal Dialog -->
-		</div> <!-- End of Modal Fade -->
 
 		<div class="footer">
 			<div class="impressum">

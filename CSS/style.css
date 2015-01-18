@@ -6,7 +6,7 @@ body, html {
   margin: 0; }
 
 h1 {
-  font-family: "Great Vibes", cursive !important;
+  font-family: "Great Vibes", cursive, Georgia !important;
   border-top: 2px solid white;
   border-bottom: 2px solid white;
   padding: 2% 0;
@@ -17,8 +17,31 @@ h2 {
   font-family: Lato, sans-serif, Arial !important;
   margin: 3% auto !important;
   font-size: 150% !important;
-  color: #6676F9 !important;
+  color: #81A1D1 !important;
   width: 60% !important; }
+
+h4 {
+  font-family: Lato, sans-serif, Arial !important;
+  color: #81A1D1 !important; }
+
+b {
+  font-family: "Great Vibes", cursive, Georgia !important;
+  font-size: 140% !important; }
+
+a:link {
+  color: #B1B8D1 !important; }
+
+a:visited {
+  color: #B1B8D1 !important; }
+
+a:active {
+  color: #B1B8D1 !important; }
+
+a:focus {
+  color: #B1B8D1 !important; }
+
+a:hover {
+  color: #C7CEEB !important; }
 
 .nav-absolute {
   position: absolute !important;
@@ -35,10 +58,11 @@ h2 {
 .distance {
   margin: 0 3% !important; }
   .distance .forms {
-    margin: 5px; }
+    margin: 5px;
+    color: #B1B8D1 !important; }
 
 .quillium {
-  font-family: "Great Vibes", cursive !important;
+  font-family: "Great Vibes", cursive, Georgia !important;
   font-size: 190% !important; }
 
 .sections {
@@ -76,7 +100,7 @@ h2 {
 
 .background {
   top: 0;
-  background: url("../Assets/Images/lowpolybackground.jpg");
+  background: url("../Assets/Images/low-poly-texture-2.png");
   width: 100%;
   height: 50%;
   min-height: 25% !important;
@@ -101,6 +125,9 @@ h2 {
         height: 100% !important;
         min-height: 70px !important;
         margin: 0 auto; }
+        .background .carousel .carousel-inner img.slider-img {
+          border-left: 10px solid white;
+          border-right: 10px solid white; }
       .background .carousel .carousel-inner .in-front {
         position: absolute;
         top: 0;
@@ -148,10 +175,10 @@ h2 {
   .about-me h3 {
     margin: 2% auto;
     text-align: center;
-    color: #6676F9;
+    color: #81A1D1;
     width: 50%;
     padding: 2% 5%;
-    border: 7px solid #6676F9; }
+    border: 7px solid #81A1D1; }
 
 .txt {
   width: 70%;
@@ -178,13 +205,13 @@ h2 {
       display: inline-block;
       height: 6px;
       width: 35px;
-      background: #6676F9; }
+      background: #81A1D1; }
 
 .skill-lockup .skill-icon.skill-0 span:nth-child(n+1), .skill-lockup .skill-icon.skill-1 span:nth-child(n+2), .skill-lockup .skill-icon.skill-2 span:nth-child(n+3), .skill-lockup .skill-icon.skill-3 span:nth-child(n+4), .skill-lockup .skill-icon.skill-4 span:nth-child(n+5), .skill-lockup .skill-icon.skill-5 span:nth-child(n+6), .skill-lockup .skill-icon.skill-6 span:nth-child(n+7), .skill-lockup .skill-icon.skill-7 span:nth-child(n+8), .skill-lockup .skill-icon.skill-8 span:nth-child(n+9), .skill-lockup .skill-icon.skill-9 span:nth-child(n+10) {
-  background: #eee; }
+  background: #E5E1EE; }
 
 .work {
-  background: rgba(102, 118, 249, 0.1);
+  background: rgba(216, 213, 222, 0.1);
   text-align: center;
   border-top: 1px solid #e3e3e3;
   border-bottom: 1px solid #e3e3e3;
@@ -220,7 +247,7 @@ h2 {
       left: 0;
       right: 0;
       height: 100%;
-      background: rgba(102, 118, 249, 0.7);
+      background: rgba(129, 161, 209, 0.7);
       transition: 0.5s;
       text-align: center;
       display: flex;

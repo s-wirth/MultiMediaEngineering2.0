@@ -23,11 +23,111 @@
 
 </head>
 <body>
+	<div class="modal fade" id="login" role="dialog">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<form action="" class="form-horizontal">
+					<div class="modal-header">
+						<h4>Log In</h4>
+					</div> <!-- End of Modal Header -->
+					<div class="modal-body">
+						
+						<div class="form-group">
+							
+							<label for="login-name" class="col-lg-2 control-label">Username</label>
+							<div class="col-lg-10">
+								<input type="text" placeholder="Enter Your Username" class="form-control" id="login-name">
+							</div>
+						</div> <!-- End of -->
+
+						<div class="form-group">
+							
+							<label for="login-name" class="col-lg-2 control-label">Password</label>
+							<div class="col-lg-10">
+								<input type="password" placeholder="Enter Your Password" class="form-control" id="login-name">
+							</div>
+						</div> <!-- End of -->
+						<div class="form-group">
+							
+							<a href="profile.html" class="btn btn-default pull-right btn-large" style="margin-right: 20px;">Login</a>
+
+						</div> <!-- End of -->
+
+					</div> <!-- End of Modal Body -->
+					<div class="modal-footer">
+						<a href="#" class="btn btn-default btn-xs">Forgot Password</a>
+						<a href="#" class="btn btn-default btn-xs">Sign Up</a>
+						<a href="#" class="btn btn-default btn-xs" data-dismiss="modal">Close</a>
+					</div> <!-- End of Modal footer -->
+				</form>
+			</div> <!-- End of Modal Content -->
+		</div> <!-- End of Modal Dialog -->
+	</div> <!-- End of Modal Fade LOGIN -->
+
+	<div class="modal fade" id="signup" role="dialog">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<form action="" class="form-horizontal">
+					<div class="modal-header">
+						<h4>Sign Up</h4>
+					</div> <!-- End of Modal Header -->
+					<div class="modal-body">
+						
+						<div class="form-group">
+							
+							<label for="login-name" class="col-lg-2 control-label">Username</label>
+							<div class="col-lg-10">
+								<input type="text" placeholder="Enter Your Username" class="form-control" id="signup-username">
+							</div>
+						</div> <!-- End of -->
+
+						<div class="form-group">
+							
+							<label for="login-name" class="col-lg-2 control-label">Email</label>
+							<div class="col-lg-10">
+								<input type="email" placeholder="Enter Your Email" class="form-control" id="signup-email">
+							</div>
+						</div> <!-- End of -->
+
+						<div class="form-group">
+							
+							<label for="login-name" class="col-lg-2 control-label">Password</label>
+							<div class="col-lg-10">
+								<input type="password" placeholder="Enter Your Password" class="form-control" id="signup-password">
+							</div>
+						</div> <!-- End of -->
+
+						<div class="form-group">
+							
+							<label for="login-name" class="col-lg-2 control-label"></label>
+							<div class="col-lg-10">
+								<input type="password" placeholder="Repeat Your Password" class="form-control" id="signup-password-rp">
+							</div>
+						</div> <!-- End of -->
+
+						<div class="form-group">
+							
+							<a href="#" class="btn btn-default pull-right btn-large" style="margin-right: 20px;">Sign Up</a>
+
+						</div> <!-- End of -->
+
+					</div> <!-- End of Modal Body -->
+					<div class="modal-footer">
+						<a href="#" class="btn btn-default btn-xs">Forgot Password</a>
+						<a href="#" class="btn btn-default btn-xs">Sign Up</a>
+						<a href="#" class="btn btn-default btn-xs" data-dismiss="modal">Close</a>
+					</div> <!-- End of Modal footer -->
+				</form>
+			</div> <!-- End of Modal Content -->
+		</div> <!-- End of Modal Dialog -->
+	</div> <!-- End of Modal Fade SIGNUP -->
+
+
 	<nav class="navbar navbar-default navbar-static-top nav-absolute">
 		
 		<div class="container-fluid distance">
 			<div class="navbar-header">
-				<a href="#" class="navbar-brand quillium">Quillium</a> <!-- Site Name -->
+				<a href="index.html" class="navbar-brand quillium">Quillium</a> <!-- Site Name -->
 
 				<button class="navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse">
 					<span class="icon-bar"></span>
@@ -54,12 +154,17 @@
 					</li>
 					<li>
 					    <form action="#">
-					        <button class="btn btn-default navbar-btn forms" role="button"><a href="#login" data-toggle="modal">Log In</a></button>
+					    	<a href="#login" data-toggle="modal">
+					        <button class="btn btn-default navbar-btn forms" role="button">Log In</button>
+					        </a>
 					    </form>
 					</li>
 					<li>
 					    <form action="#">
-					        <button class="btn btn-default navbar-btn forms" role="button"><a href="profile.html">Sign Up</a></button>
+					    	<a href="#signup" data-toggle="modal">
+					        <button class="btn btn-default navbar-btn forms" role="button">Sign Up
+					        </button>
+					        </a>
 					    </form>
 					</li>
 				</ul>
@@ -88,15 +193,15 @@
 						</div>
 					</div>
 							<div class="item active">
-						<img src="Assets/Images/redSunset.jpg" alt="Sunset 1" class="img-responsive">
+						<img src="Assets/Images/redSunset.jpg" alt="Sunset 1" class="slider-img">
 					</div>
 					
 					<div class="item">
-						<img src="Assets/Images/oceanSunset.jpg" alt="Sunset 2">
+						<img src="Assets/Images/oceanSunset.jpg" alt="Sunset 2" class="slider-img">
 					</div>
 					
 					<div class="item">
-						<img src="Assets/Images/mountainSunset.jpg" alt="Sunset 3">
+						<img src="Assets/Images/mountainSunset.jpg" alt="Sunset 3" class="slider-img">
 					</div>
 
 				</div> <!-- End of Carousel-Inner -->
@@ -116,11 +221,11 @@
 			
 			<div class="row">
 				<div class="col-md-12 text-center sections">
-					<h2>Welcome to Quillium</h2>
+					<h2>Welcome to <b>Quillium</b></h2>
 					<p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur similique nam quasi laudantium corrupti repudiandae autem qui cupiditate ipsa eveniet numquam sed dolorem voluptatibus itaque dicta rerum hic, impedit, ea!</span>
 					<span>Ullam ab distinctio maxime aliquid omnis labore, fugit, ex dolorem doloribus iure mollitia unde assumenda obcaecati modi quia dolor vero vitae et. Magnam ducimus dignissimos commodi qui nesciunt! Pariatur, quos.</span>
 					<span>Perferendis quibusdam maiores rerum ullam sed dignissimos asperiores quisquam facilis illo, deserunt quas enim. Similique, tempore, odio ipsum vero suscipit vel, dolore quam debitis voluptatibus perferendis consequuntur aliquid corporis exercitationem.</span></p>
-					<button type="button" class="btn btn-default btn-lg">FAQ</button>
+					<a href="#" class="btn btn-default btn-lg">FAQ</a>
 				</div> <!-- End of Column - ABOUT SITE TEXT -->
 			</div> <!-- End of Row -->
 
@@ -154,31 +259,13 @@
 
 			<div class="row">
 				<div class="col-md-6 col-md-offset-3 text-center sections">
-					<h2>Become a part of Quillium</h2>
+					<h2>Become a part of <b>Quillium</b></h2>
 					<p>Sign up today and be part of this wonderful freelancer community! Amazing people and opportunities await you!</p>
 					<button type="button" class="btn btn-success btn-lg">Sign Up For Free</button>
 				</div> <!-- End of Column - ABOUT SITE TEXT -->
 			</div> <!-- End of Row -->
 			
 		</div> <!-- End of Contaienr Articles -->
-
-		<div class="modal fade" id="login" role="dialog">
-			<div class="modal-dialog">
-				<div class="modal-content">
-					<div class="modal-header">
-						<h4>Log In</h4>
-					</div> <!-- End of Modal Header -->
-					<div class="modal-body">
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum exercitationem temporibus, odit modi cumque veritatis labore id, aliquid ducimus. Eligendi ad eveniet ratione accusamus ea debitis eaque quidem officia doloribus.
-					</div> <!-- End of Modal Body -->
-					<div class="modal-footer">
-						<a href="#" class="btn btn-default btn-xs">Forgot Password</a>
-						<a href="#" class="btn btn-default btn-xs">Sign Up</a>
-						<a href="#" class="btn btn-default btn-xs" data-dismiss="modal">Close</a>
-					</div> <!-- End of Modal footer -->
-				</div> <!-- End of Modal Content -->
-			</div> <!-- End of Modal Dialog -->
-		</div> <!-- End of Modal Fade -->
 
 		<div class="footer">
 			<div class="impressum">

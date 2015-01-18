@@ -1,7 +1,9 @@
 $txtc: #7a7a7a
 $txtf: Lato, sans-serif, Arial
-$primc: #6676F9
-$unselect: #eee
+$txtfhighlight: 'Great Vibes', cursive, Georgia
+$primc: #81A1D1
+$secc: #B1B8D1
+$unselect: #E5E1EE
 
 body, html
 	background: url('../Assets/Images/background-noise.png')
@@ -10,7 +12,7 @@ body, html
 	height: 100%
 	margin: 0
 h1
-	font-family: 'Great Vibes', cursive!important
+	font-family: $txtfhighlight!important
 	border-top: 2px solid white
 	border-bottom: 2px solid white
 	padding: 2% 0
@@ -23,6 +25,25 @@ h2
 	font-size: 150%!important
 	color: $primc!important
 	width: 60%!important
+
+h4
+	font-family: $txtf!important
+	color: $primc!important
+b
+	font-family: $txtfhighlight!important
+	font-size: 140%!important
+
+a:link 
+	color: $secc!important
+a:visited 
+	color: $secc!important
+a:active 
+	color: $secc!important
+a:focus 
+	color: $secc!important
+a:hover 
+	color: #C7CEEB!important
+
 
 .nav-absolute
 	position: absolute!important
@@ -41,9 +62,10 @@ h2
 
 	.forms
 		margin: 5px
+		color: $secc!important
 
 .quillium
-	font-family: 'Great Vibes', cursive!important
+	font-family: $txtfhighlight!important
 	font-size: 190%!important
 
 .sections
@@ -83,7 +105,7 @@ h2
 
 .background
 	top: 0
-	background: url('../Assets/Images/lowpolybackground.jpg')
+	background: url('../Assets/Images/low-poly-texture-2.png')
 	width: 100%
 	height: 50%
 	min-height: 25%!important
@@ -111,6 +133,9 @@ h2
 				height: 100%!important
 				min-height: 70px!important	
 				margin: 0 auto
+				&.slider-img
+					border-left: 10px solid white
+					border-right: 10px solid white
 
 			.in-front
 				position: absolute
@@ -209,7 +234,7 @@ h2
 	background: $unselect
 
 .work
-	background: rgba(102, 118, 249, 0.1)
+	background: rgba(216,213,222, 0.1)
 	text-align: center
 	border-top: 1px solid #e3e3e3
 	border-bottom: 1px solid #e3e3e3
