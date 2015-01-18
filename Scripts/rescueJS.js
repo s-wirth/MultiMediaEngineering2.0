@@ -5,7 +5,7 @@ window.addEventListener("load",init, false);
 function init() {
 	var submit = document.getElementById("reset");
 	submit.addEventListener("click", submitMail, false);
-	setTimeout(timeout, 9000);
+	setTimeout(timeout, 100);
 
 }
 
