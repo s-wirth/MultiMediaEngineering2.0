@@ -26,7 +26,7 @@
 
 </head>
 <body>
-	<div class="modal fade" id="login" role="dialog">
+<div class="modal fade" id="login" role="dialog">
 		<div class="modal-dialog">
 			<div class="modal-content">
 				<form action="" class="form-horizontal">
@@ -58,7 +58,7 @@
 
 					</div> <!-- End of Modal Body -->
 					<div class="modal-footer">
-						<a href="passwordRec.html" class="btn btn-default btn-xs">Forgot Password</a>
+						<a href="#" class="btn btn-default btn-xs">Forgot Password</a>
 						<a href="#" class="btn btn-default btn-xs">Sign Up</a>
 						<a href="#" class="btn btn-default btn-xs" data-dismiss="modal">Close</a>
 					</div> <!-- End of Modal footer -->
@@ -125,6 +125,7 @@
 	</div> <!-- End of Modal Fade SIGNUP -->
 
 
+
 	<nav class="navbar navbar-default navbar-static-top nav-absolute">
 		
 		<div class="container-fluid distance">
@@ -141,19 +142,6 @@
 			<div class="collapse navbar-collapse navHeaderCollapse">
 				
 				<ul class="nav navbar-nav navbar-right">
-
-					<li class="active"><a href="#">Home</a></li>
-					<li><a href="#">Community</a></li>
-					<li><a href="#">CMS</a></li>
-					
-					<li class="dropdown">
-						<a href="#" class="dropdown-toggle" data-toggle="dropdown">Social Media <b class="caret"></b></a>
-						<ul class="dropdown-menu">
-							<li><a href="#">Youtube</a></li>
-							<li><a href="#">Facebook</a></li>
-							<li><a href="#">Twitter</a></li>
-						</ul>
-					</li>
 					<li>
 					    <form>
 					    	<a href="#login" data-toggle="modal">
@@ -172,102 +160,46 @@
 				</ul>
 
 			</div> <!-- End of Collapse Content -->
-
 		</div> <!-- End of container -->
 	</nav> <!-- End of navbar -->
+
+
 	<div class="content">
-		<div class="background">
-			<div id="myCarousel" class="carousel slide">
-				
-				<ol class="carousel-indicators">
+		<div class="thankyou-message">
+			<strong>Thank you!</strong>
+			<p>
+				Thank you for signing up to Quillium! A validation email has been sent to you, please don't forget to activate your account.
+			</p>
+		</div>	
+
+		<div class="login-again">
+			<strong>Login</strong>
+			<form action="" class="form-horizontal">
+				<div class="form-group">
 					
-					<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-					<li data-target="#myCarousel" data-slide-to="1"></li>
-					<li data-target="#myCarousel" data-slide-to="2"></li>
-
-				</ol>
-
-				<div class="carousel-inner">
-					<div class="container in-front">
-						<div class="jumbotron">
-								<img src="Assets/Images/logo.png" class="img-responsive" alt="Logo">
-								<h1>Quillium</h1>
-						</div>
+					<label for="login-name" class="col-lg-2 control-label">Username</label>
+					<div class="col-lg-10">
+						<input type="text" placeholder="Enter Your Username" class="form-control" id="login-name">
 					</div>
-							<div class="item active">
-						<img src="Assets/Images/redSunset.jpg" alt="Sunset 1" class="slider-img">
-					</div>
+				</div> <!-- End of -->
+
+				<div class="form-group">
 					
-					<div class="item">
-						<img src="Assets/Images/oceanSunset.jpg" alt="Sunset 2" class="slider-img">
+					<label for="login-name" class="col-lg-2 control-label">Password</label>
+					<div class="col-lg-10">
+						<input type="password" placeholder="Enter Your Password" class="form-control" id="login-name">
 					</div>
+				</div> <!-- End of -->
+				<div class="form-group">
 					
-					<div class="item">
-						<img src="Assets/Images/mountainSunset.jpg" alt="Sunset 3" class="slider-img">
-					</div>
+					<input class="btn btn-default pull-right btn-large" value="Login" id="loginBtn" style="margin-right: 20px;" type="button" />
 
-				</div> <!-- End of Carousel-Inner -->
+				</div> <!-- End of -->
+			</form>
 
-				<a href="#myCarousel" class="carousel-control left" data-slide="prev">
-					<span class="icon-prev"></span>
-				</a>
-				<a href="#myCarousel" class="carousel-control right" data-slide="next">
-					<span class="icon-next"></span>
-				</a>			
+		</div>
 
-			</div> <!-- End of myCarousel -->
-
-		</div> <!-- End of Slider -->
-
-		<div class="container articles"> <!-- End of container for articles -->
-			
-			<div class="row">
-				<div class="col-md-12 text-center sections">
-					<h2>Welcome to <b>Quillium</b></h2>
-					<p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur similique nam quasi laudantium corrupti repudiandae autem qui cupiditate ipsa eveniet numquam sed dolorem voluptatibus itaque dicta rerum hic, impedit, ea!</span>
-					<span>Ullam ab distinctio maxime aliquid omnis labore, fugit, ex dolorem doloribus iure mollitia unde assumenda obcaecati modi quia dolor vero vitae et. Magnam ducimus dignissimos commodi qui nesciunt! Pariatur, quos.</span>
-					<span>Perferendis quibusdam maiores rerum ullam sed dignissimos asperiores quisquam facilis illo, deserunt quas enim. Similique, tempore, odio ipsum vero suscipit vel, dolore quam debitis voluptatibus perferendis consequuntur aliquid corporis exercitationem.</span></p>
-					<a href="#" class="btn btn-default btn-lg">FAQ</a>
-				</div> <!-- End of Column - ABOUT SITE TEXT -->
-			</div> <!-- End of Row -->
-
-			<div class="row">
-				
-				<div class="col-md-4 sections">
-					<h3><a href="#">Lorem ipsum dolor sit amet.</a></h3>
-					<p>
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique aliquid explicabo non necessitatibus consequatur, qui voluptate sequi ullam deleniti dolores totam hic recusandae provident, nulla molestiae magni excepturi praesentium porro.
-					</p>
-					<a href="#" class="btn btn-default">Read More</a>
-				</div> <!-- End of Column -->
-
-				<div class="col-md-4 sections">
-					<h3><a href="#">Lorem ipsum dolor sit amet.</a></h3>
-					<p>
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique aliquid explicabo non necessitatibus consequatur, qui voluptate sequi ullam deleniti dolores totam hic recusandae provident, nulla molestiae magni excepturi praesentium porro.
-					</p>
-					<a href="#" class="btn btn-default">Read More</a>
-				</div> <!-- End of Column -->
-
-				<div class="col-md-4 sections">
-					<h3><a href="#">Lorem ipsum dolor sit amet.</a></h3>
-					<p>
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique aliquid explicabo non necessitatibus consequatur, qui voluptate sequi ullam deleniti dolores totam hic recusandae provident, nulla molestiae magni excepturi praesentium porro.
-					</p>
-					<a href="#" class="btn btn-default">Read More</a>
-				</div> <!-- End of Column -->
-
-			</div> <!-- End of Row -->
-
-			<div class="row">
-				<div class="col-md-6 col-md-offset-3 text-center sections">
-					<h2>Become a part of <b>Quillium</b></h2>
-					<p>Sign up today and be part of this wonderful freelancer community! Amazing people and opportunities await you!</p>
-					<button type="button" class="btn btn-success btn-lg">Sign Up For Free</button>
-				</div> <!-- End of Column - ABOUT SITE TEXT -->
-			</div> <!-- End of Row -->
-			
-		</div> <!-- End of Contaienr Articles -->
+	</div> <!-- End of Contaienr Articles -->
 
 		<div class="footer">
 			<div class="impressum">
