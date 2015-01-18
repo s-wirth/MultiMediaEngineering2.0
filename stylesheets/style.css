@@ -1,0 +1,372 @@
+/* line 8, ../sass/style.sass */
+body, html {
+  background: url("/Assets/Images/background-noise.png");
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+
+/* line 14, ../sass/style.sass */
+h1 {
+  font-family: "Great Vibes", cursive !important;
+  border-top: 2px solid white;
+  border-bottom: 2px solid white;
+  padding: 1% 0;
+  color: white !important;
+  font-size: 500% !important;
+}
+
+/* line 22, ../sass/style.sass */
+h2 {
+  font-family: Lato, sans-serif, Arial !important;
+  margin: 3% auto !important;
+  font-size: 150% !important;
+  color: #6676F9 !important;
+  width: 60% !important;
+}
+
+/* line 29, ../sass/style.sass */
+.nav-absolute {
+  position: absolute !important;
+  width: 100% !important;
+  z-index: 1000 !important;
+}
+
+/* line 34, ../sass/style.sass */
+.navbar-fixed-bottom {
+  width: 100% !important;
+  min-width: 100% !important;
+  max-width: 100% !important;
+  bottom: 0 !important;
+  left: 0 !important;
+}
+
+/* line 41, ../sass/style.sass */
+.distance {
+  margin: 0 3% !important;
+}
+/* line 44, ../sass/style.sass */
+.distance .forms {
+  margin: 5px;
+}
+
+/* line 47, ../sass/style.sass */
+.quillium {
+  font-family: "Great Vibes", cursive !important;
+  font-size: 190% !important;
+}
+
+/* line 51, ../sass/style.sass */
+.sections {
+  padding: 4%;
+}
+
+/* line 54, ../sass/style.sass */
+.content {
+  position: absolute;
+  display: block;
+  width: 100%;
+  overflow: visible;
+  top: 50px;
+  bottom: 50px;
+}
+/* line 62, ../sass/style.sass */
+.content .footer {
+  background: #f8f8f8;
+  color: #7a7a7a;
+  border-top: 1px solid #e7e7e7;
+  width: 100%;
+  height: 50px;
+  overflow: hidden;
+  bottom: 0;
+  left: 0;
+}
+/* line 72, ../sass/style.sass */
+.content .footer .credit {
+  position: absolute;
+  right: 0;
+  margin: 0 5%;
+  line-height: 50px;
+}
+/* line 78, ../sass/style.sass */
+.content .footer .impressum {
+  position: absolute;
+  left: 0;
+  margin: 0 5%;
+  line-height: 50px;
+}
+/* line 84, ../sass/style.sass */
+.content .background {
+  top: 0;
+  background: url("/Assets/Images/lowpolybackground.jpg");
+  width: 100%;
+  height: 50%;
+  min-height: 25% !important;
+  margin: 0 auto;
+  display: inline-block;
+}
+/* line 93, ../sass/style.sass */
+.content .profile {
+  background: url("/Assets/Images/profilelowpolybackground.jpg") !important;
+}
+/* line 96, ../sass/style.sass */
+.content .profile .carousel {
+  width: 100%;
+  height: 100%;
+  display: inline-block;
+  max-height: 100% !important;
+  min-height: 100% !important;
+}
+/* line 103, ../sass/style.sass */
+.content .profile .carousel .carousel-inner {
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  width: 100% !important;
+  height: 100% !important;
+  max-height: 100% !important;
+  min-height: 100% !important;
+}
+/* line 112, ../sass/style.sass */
+.content .profile .carousel .carousel-inner img {
+  text-align: center;
+  height: 100% !important;
+  min-height: 70px !important;
+  margin: 0 auto;
+}
+/* line 118, ../sass/style.sass */
+.content .profile .carousel .carousel-inner .in-front {
+  position: absolute;
+  top: 0;
+  bottom: -30px;
+  margin: auto;
+  text-align: center !important;
+  width: 60% !important;
+  max-width: 70% !important;
+  min-height: 200px !important;
+  overflow: hidden;
+  margin-left: -30%;
+  left: 50%;
+  z-index: 13;
+}
+/* line 132, ../sass/style.sass */
+.content .profile .carousel .carousel-inner .in-front .jumbotron {
+  background-color: transparent !important;
+  min-height: 200px !important;
+  text-align: center;
+  height: auto;
+}
+/* line 138, ../sass/style.sass */
+.content .profile .carousel .carousel-inner .in-front .jumbotron img {
+  height: auto !important;
+  max-height: 200px;
+}
+
+/* line 142, ../sass/style.sass */
+.articles {
+  padding: 4%;
+}
+
+/*PROFILE STYLING -------------------------------------------------------------- */
+/* line 150, ../sass/style.sass */
+.profile-pic {
+  background: white url("/Assets/Images/ATeam.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 1000px;
+  position: relative;
+  top: 14%;
+  margin: 0 auto;
+  z-index: 13;
+  height: 330px;
+  width: 330px;
+}
+
+/* line 162, ../sass/style.sass */
+.about-me {
+  color: #7a7a7a;
+  font-family: Lato, sans-serif, Arial;
+  margin: 4% auto;
+  width: 60%;
+  text-align: center;
+}
+/* line 168, ../sass/style.sass */
+.about-me h3 {
+  margin: 2% auto;
+  text-align: center;
+  color: #6676F9;
+  width: 50%;
+  padding: 2% 5%;
+  border: 7px solid #6676F9;
+}
+
+/* line 176, ../sass/style.sass */
+.txt {
+  width: 70%;
+  margin: 0 auto;
+}
+
+/* line 180, ../sass/style.sass */
+.skill-lockup {
+  max-width: 90%;
+  text-align: center;
+  margin: 5% auto;
+  padding: 0 10%;
+  overflow: auto;
+  color: #7a7a7a;
+  font-family: Lato, sans-serif, Arial;
+  font-size: 110%;
+}
+/* line 190, ../sass/style.sass */
+.skill-lockup .skill-label {
+  padding-bottom: 2%;
+}
+/* line 193, ../sass/style.sass */
+.skill-lockup .skill-unit {
+  width: 50%;
+  float: left;
+}
+/* line 197, ../sass/style.sass */
+.skill-lockup .skill-icon {
+  font-size: 0;
+  margin-bottom: 7%;
+}
+/* line 201, ../sass/style.sass */
+.skill-lockup .skill-icon span {
+  display: inline-block;
+  height: 6px;
+  width: 35px;
+  background: #6676F9;
+}
+
+/* line 211, ../sass/style.sass */
+.skill-lockup .skill-icon.skill-0 span:nth-child(n+1), .skill-lockup .skill-icon.skill-1 span:nth-child(n+2), .skill-lockup .skill-icon.skill-2 span:nth-child(n+3), .skill-lockup .skill-icon.skill-3 span:nth-child(n+4), .skill-lockup .skill-icon.skill-4 span:nth-child(n+5), .skill-lockup .skill-icon.skill-5 span:nth-child(n+6), .skill-lockup .skill-icon.skill-6 span:nth-child(n+7), .skill-lockup .skill-icon.skill-7 span:nth-child(n+8), .skill-lockup .skill-icon.skill-8 span:nth-child(n+9), .skill-lockup .skill-icon.skill-9 span:nth-child(n+10) {
+  background: #eee;
+}
+
+/* line 214, ../sass/style.sass */
+.work {
+  background: #E7E7E7;
+  text-align: center;
+}
+
+/* line 218, ../sass/style.sass */
+.thumb-container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding-bottom: 100px;
+}
+/* line 222, ../sass/style.sass */
+.thumb-container:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* line 227, ../sass/style.sass */
+.thumb-container .thumb-unit {
+  position: relative;
+  display: block;
+  width: 25%;
+  background: pink;
+  float: left;
+  padding-top: 20%;
+  overflow: hidden;
+  background-image: url("/Assets/Images/Work/thumb.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* line 242, ../sass/style.sass */
+.thumb-container .thumb-unit .thumb-overlay {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  height: 100%;
+  background: rgba(102, 118, 249, 0.7);
+}
+/* line 251, ../sass/style.sass */
+.thumb-container .thumb-unit:hover .thumb-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: rgba(102, 118, 249, 0.7);
+}
+
+@media (min-width: 400px) and (max-width: 1070px) {
+  /* line 264, ../sass/style.sass */
+  .skill-lockup {
+    width: 100%;
+    padding: 0;
+  }
+  /* line 268, ../sass/style.sass */
+  .skill-lockup h2 {
+    font-size: 120%;
+    margin: 7% auto;
+  }
+  /* line 271, ../sass/style.sass */
+  .skill-lockup .skill-unit {
+    width: 400px;
+    margin: 0 auto;
+    float: none;
+  }
+}
+@media (min-width: 400px) and (max-width: 540px) {
+  /* line 280, ../sass/style.sass */
+  .skill-lockup {
+    width: 100%;
+    padding: 0;
+  }
+  /* line 284, ../sass/style.sass */
+  .skill-lockup .skill-unit {
+    width: 200px;
+    margin: 0 auto;
+    float: none;
+  }
+  /* line 290, ../sass/style.sass */
+  .skill-lockup .skill-icon span {
+    width: 20px;
+  }
+
+  /* line 293, ../sass/style.sass */
+  h1 {
+    font-size: 400% !important;
+    padding: 5% 0 !important;
+  }
+}
+/* line 297, ../sass/style.sass */
+.articles {
+  top: 50%;
+}
+
+@media (min-width: 200px) and (max-width: 400px) {
+  /* line 304, ../sass/style.sass */
+  h1 {
+    font-size: 280% !important;
+    padding: 5% 0 !important;
+  }
+
+  /* line 308, ../sass/style.sass */
+  .slider {
+    height: 35%;
+  }
+  /* line 312, ../sass/style.sass */
+  .slider .carousel .carousel-indicators {
+    display: none;
+  }
+  /* line 317, ../sass/style.sass */
+  .slider .carousel .carousel-inner .in-front {
+    text-align: center;
+  }
+  /* line 322, ../sass/style.sass */
+  .slider .carousel .carousel-inner .in-front .jumbotron img {
+    height: 110px !important;
+  }
+
+  /* line 325, ../sass/style.sass */
+  .articles {
+    top: 40% !important;
+  }
+}

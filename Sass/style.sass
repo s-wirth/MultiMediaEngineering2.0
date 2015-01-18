@@ -1,0 +1,344 @@
+$txtc: #7a7a7a
+$txtf: Lato, sans-serif, Arial
+$primc: #6676F9
+$unselect: #eee
+
+body, html
+	background: url('/Assets/Images/background-noise.png')
+	position: absolute
+	width: 100%
+	height: 100%
+	margin: 0
+h1
+	font-family: 'Great Vibes', cursive!important
+	border-top: 2px solid white
+	border-bottom: 2px solid white
+	padding: 1% 0
+	color: white!important
+	font-size: 500%!important
+
+h2
+	font-family: $txtf!important
+	margin: 3% auto!important
+	font-size: 150%!important
+	color: $primc!important
+	width: 60%!important
+
+.nav-absolute
+	position: absolute!important
+	width: 100%!important
+	z-index: 1000!important
+
+.navbar-fixed-bottom
+	width: 100%!important
+	min-width: 100%!important
+	max-width: 100%!important
+	bottom: 0!important
+	left: 0!important
+
+.distance
+	margin: 0 3%!important
+
+	.forms
+		margin: 5px
+
+.quillium
+	font-family: 'Great Vibes', cursive!important
+	font-size: 190%!important
+
+.sections
+	padding: 4%
+
+.content
+	position: absolute
+	display: block
+	width: 100%
+	overflow: visible
+	top: 50px
+	bottom: 50px
+
+	.footer
+		background: #f8f8f8
+		color: $txtc
+		border-top: 1px solid #e7e7e7
+		width: 100%
+		height: 50px
+		overflow: hidden
+		bottom: 0
+		left: 0
+
+		.credit
+			position: absolute
+			right: 0
+			margin: 0 5%
+			line-height: 50px
+
+		.impressum
+			position: absolute
+			left: 0
+			margin: 0 5%
+			line-height: 50px
+.profile
+	background: url('/Assets/Images/profilelowpolybackground.jpg')!important
+
+.background
+	top: 0
+	background: url('/Assets/Images/lowpolybackground.jpg')
+	width: 100%
+	height: 50%
+	min-height: 25%!important
+	margin: 0 auto
+	display: inline-block
+
+	.carousel 
+		width: 100%
+		height: 100%
+		display: inline-block
+		max-height: 100%!important
+		min-height: 100%!important
+
+		.carousel-inner
+			position: relative
+			display: inline-block
+			overflow: hidden
+			width: 100%!important
+			height: 100%!important
+			max-height: 100%!important
+			min-height: 100%!important
+
+			img
+				text-align: center
+				height: 100%!important
+				min-height: 70px!important	
+				margin: 0 auto
+
+			.in-front
+				position: absolute
+				top: 0
+				bottom: -30px
+				margin: auto
+				text-align: center!important
+				width: 60%!important
+				max-width: 70%!important
+				min-height: 200px!important
+				overflow: hidden
+				margin-left: -30%
+				left: 50% 
+				z-index: 13
+
+				.jumbotron
+					background-color: transparent!important
+					min-height: 200px!important
+					text-align: center
+					height: auto
+
+					img
+						height: auto!important
+						max-height: 200px
+
+.articles
+	padding: 4%
+
+
+
+/*PROFILE STYLING --------------------------------------------------------------*/
+
+
+.profile-pic
+	background: white url('/Assets/Images/ATeam.jpg')
+	background-repeat: no-repeat
+	background-position: center
+	border-radius: 1000px
+	position: relative
+	top: 14%
+	margin: 0 auto
+	z-index: 13
+	height: 330px
+	width: 330px
+
+.about-me
+	color: $txtc
+	font-family: $txtf
+	margin: 4% auto
+	width: 60%
+	text-align: center
+	h3
+		margin: 2% auto
+		text-align: center
+		color: $primc
+		width: 50%
+		padding: 2% 5%
+		border: 7px solid $primc
+
+.txt
+	width: 70%
+	margin: 0 auto
+
+.skill-lockup
+	max-width: 90%
+	text-align: center
+	margin: 5% auto
+	padding: 0 10%
+	overflow: auto
+	color: $txtc
+	font-family: $txtf
+	font-size: 110%
+
+	.skill-label
+		padding-bottom: 2%
+
+	.skill-unit
+		width: 50%
+		float: left
+
+	.skill-icon
+		font-size: 0
+		margin-bottom: 7% 
+
+		span
+			display: inline-block
+			height: 6px
+			width: 35px
+			background: $primc
+
+		@for $i from 1 through 10
+			&.skill-#{$i - 1} span:nth-child(n+#{$i})
+				@extend %skill-color
+
+%skill-color
+	background: $unselect
+
+.work
+	background: rgba(102, 118, 249, 0.1)
+	text-align: center
+	border-top: 1px solid #e3e3e3
+	border-bottom: 1px solid #e3e3e3
+	padding: 2% 0
+
+.thumb-container
+	max-width: 960px
+	margin: 0 auto
+	padding-bottom: 100px
+	&:after
+		content: ""
+		display: table
+		clear: both
+
+	.thumb-unit
+		position: relative
+		display: block
+		width: 25%
+		background: pink
+		float: left
+		padding-top: 20%
+		overflow: hidden
+
+		background:
+			image: url('/Assets/Images/Work/thumb.jpg')
+			position: center center
+			repeat: no-repeat
+			size: cover
+
+		@media screen and (max-width: 760px)
+			width: 50%
+			padding-top: 25%
+
+		.thumb-overlay
+			position: absolute
+			top: 100%
+			left: 0
+			bottom: null
+			right: 0
+			height: 100%
+			background: fade-out($primc, 0.3)
+			transition: 0.5s
+			text-align: center
+			display: flex
+			align-items: center
+			justify-content: space-around
+
+			strong
+				display: block
+				color: white
+				font-weight: normal
+				font-size: 150%
+				font-family: $txtf
+				line-height: 1.2
+				text-transform: uppercase
+				padding: 0 20px
+
+		&:hover .thumb-overlay
+			position: absolute
+			top: 0
+			left: 0
+			bottom: null
+			right: 0
+
+
+
+
+@media (min-width: 400px) and (max-width: 1070px)
+
+	.skill-lockup
+		width: 100%
+		padding: 0
+
+		h2
+			font-size: 120%
+			margin: 7% auto
+		.skill-unit
+			width: 400px
+			margin: 0 auto
+			float: none
+
+
+
+@media (min-width: 400px) and (max-width: 540px)
+
+	.skill-lockup
+		width: 100%
+		padding: 0
+
+		.skill-unit
+			width: 200px
+			margin: 0 auto
+			float: none
+
+		.skill-icon
+			span
+				width: 20px
+
+	h1
+		font-size: 400%!important
+		padding: 5% 0!important
+
+.articles
+	top: 50%
+
+
+
+@media (min-width: 200px) and (max-width: 400px)
+
+	h1
+		font-size: 280%!important
+		padding: 5% 0!important
+	
+	.background
+		height: 35%
+		.carousel 
+
+			.carousel-indicators
+				display: none
+
+			.carousel-inner
+
+				.in-front
+					text-align: center
+
+					.jumbotron
+
+						img
+							height: 110px!important
+
+	.articles
+		top: 40%!important
