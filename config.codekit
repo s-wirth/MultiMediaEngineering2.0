@@ -35,6 +35,105 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/Assets\/Images\/icons\/briefcase.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 19495,
+		"inputAbbreviatedPath": "\/Assets\/Images\/icons\/briefcase.png",
+		"outputAbbreviatedPath": "\/Assets\/Images\/icons\/briefcase.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/Assets\/Images\/icons\/fbhandle.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 18088,
+		"inputAbbreviatedPath": "\/Assets\/Images\/icons\/fbhandle.png",
+		"outputAbbreviatedPath": "\/Assets\/Images\/icons\/fbhandle.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/Assets\/Images\/icons\/icons.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 72771,
+		"inputAbbreviatedPath": "\/Assets\/Images\/icons\/icons.png",
+		"outputAbbreviatedPath": "\/Assets\/Images\/icons\/icons.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/Assets\/Images\/icons\/laptop.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 19589,
+		"inputAbbreviatedPath": "\/Assets\/Images\/icons\/laptop.png",
+		"outputAbbreviatedPath": "\/Assets\/Images\/icons\/laptop.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/Assets\/Images\/icons\/location.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 18693,
+		"inputAbbreviatedPath": "\/Assets\/Images\/icons\/location.png",
+		"outputAbbreviatedPath": "\/Assets\/Images\/icons\/location.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/Assets\/Images\/icons\/mail.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 19745,
+		"inputAbbreviatedPath": "\/Assets\/Images\/icons\/mail.png",
+		"outputAbbreviatedPath": "\/Assets\/Images\/icons\/mail.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/Assets\/Images\/icons\/mouse.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 18199,
+		"inputAbbreviatedPath": "\/Assets\/Images\/icons\/mouse.png",
+		"outputAbbreviatedPath": "\/Assets\/Images\/icons\/mouse.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/Assets\/Images\/icons\/phone.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 19401,
+		"inputAbbreviatedPath": "\/Assets\/Images\/icons\/phone.png",
+		"outputAbbreviatedPath": "\/Assets\/Images\/icons\/phone.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/Assets\/Images\/icons\/twitter.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 19766,
+		"inputAbbreviatedPath": "\/Assets\/Images\/icons\/twitter.png",
+		"outputAbbreviatedPath": "\/Assets\/Images\/icons\/twitter.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/Assets\/Images\/logo.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -64,6 +163,17 @@
 		"initialSize": 50194,
 		"inputAbbreviatedPath": "\/Assets\/Images\/logoplaceholder.png",
 		"outputAbbreviatedPath": "\/Assets\/Images\/logoplaceholder.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/Assets\/Images\/low-poly-texture-2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3.37275e+06,
+		"inputAbbreviatedPath": "\/Assets\/Images\/low-poly-texture-2.png",
+		"outputAbbreviatedPath": "\/Assets\/Images\/low-poly-texture-2.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -188,6 +298,24 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/CSS\/bootstrap.min.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/CSS\/style.css": {
+		"fileType": 16,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/CSS\/style.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/errorPage.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/errorPage.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -687,6 +815,24 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
+	"\/passwordRec.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/passwordRec.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/profile.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/profile.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/Sass\/ie.sass": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
@@ -735,6 +881,22 @@
 		"shouldRunBless": 0,
 		"useLibsass": false
 		},
+	"\/Sass\/style.sass": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 2,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/Sass\/style.sass",
+		"outputAbbreviatedPath": "\/css\/style.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": false
+		},
 	"\/Scripts\/bootstrap.js": {
 		"fileType": 64,
 		"ignore": 0,
@@ -756,6 +918,59 @@
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
+		},
+	"\/Scripts\/javascript.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/Scripts\/javascript.js",
+		"outputAbbreviatedPath": "\/Scripts\/min\/javascript-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/Scripts\/min\/javascript-min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/Scripts\/min\/javascript-min.js",
+		"outputAbbreviatedPath": "\/Scripts\/min\/min\/javascript-min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/Scripts\/min\/rescueJS-min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/Scripts\/min\/rescueJS-min.js",
+		"outputAbbreviatedPath": "\/Scripts\/min\/min\/rescueJS-min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/Scripts\/rescueJS.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/Scripts\/rescueJS.js",
+		"outputAbbreviatedPath": "\/Scripts\/min\/rescueJS-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/signUp.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/signUp.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
 		},
 	"\/stylesheets\/global.css": {
 		"fileType": 16,

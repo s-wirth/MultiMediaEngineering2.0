@@ -248,6 +248,39 @@ a:hover {
   width: 70%;
   margin: 0 auto; }
 
+.info {
+  background: rgba(216, 213, 222, 0.1);
+  text-align: center;
+  border-top: 1px solid #e3e3e3;
+  border-bottom: 1px solid #e3e3e3;
+  padding: 2% 0;
+  width: 100%;
+  height: auto; }
+  .info .stats {
+    width: 450px;
+    margin: 0 auto; }
+  .info .row {
+    margin: 2% auto;
+    width: 100%;
+    text-align: center; }
+    .info .row .col-md-10 {
+      text-align: right;
+      font-family: Lato, sans-serif, Arial;
+      color: #7a7a7a;
+      font-size: 135%; }
+    .info .row .col-md-2 {
+      text-align: left; }
+      .info .row .col-md-2 img {
+        padding: 0 5%;
+        height: 20px;
+        width: auto; }
+  .info .map {
+    height: 350px;
+    width: 500px;
+    background: #B1B8D1;
+    margin: 0 auto 4% auto;
+    box-shadow: 3px 3px 4px #B1B8D1; }
+
 .skill-lockup {
   max-width: 90%;
   text-align: center;
