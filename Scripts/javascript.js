@@ -13,7 +13,7 @@ function checkLogin(e) {
 	var username = document.getElementById("login-name");
 	var pw = document.getElementById("login-pw");
 
-	if(username.value.indexOf('sophie') >= 0){
+	if(username.value.indexOf('andy') >= 0){
 		window.location.href = "profile.html";
 	}else window.location.href = "errorPage.html";
 }
